@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Amine Sadik | Ingénieur d'État Génie Civil | BIM & Structures</title>
+  <meta name="description" content="Portfolio professionnel de Mohamed Amine Sadik, ingénieur d'État en génie civil spécialisé en calcul de structures, BIM, coordination technique et suivi de chantier." />
+  <meta name="keywords" content="Mohamed Amine Sadik, ingénieur génie civil, BIM, Revit, Robot Structural Analysis, RFEM 6, Tekla, Navisworks, bureau d'études, chantier, Maroc, Casablanca" />
+  <meta name="author" content="Mohamed Amine Sadik" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://votre-domaine.com/" />
+  <meta property="og:title" content="Mohamed Amine Sadik | Ingénieur Génie Civil" />
+  <meta property="og:description" content="Portfolio BIM, calcul de structures, bureau d'études et suivi de chantier." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/mohamed-amine-sadik-photo.png" />
+  <meta name="theme-color" content="#101927" />
+  <link rel="icon" href="assets/mohamed-amine-sadik-photo.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohamed Amine Sadik",
+    "jobTitle": "Ingénieur d'État en Génie Civil",
+    "email": "mailto:sadikmohamedamine01@gmail.com",
+    "telephone": "+212609823358",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Casablanca",
+      "addressCountry": "MA"
+    },
+    "knowsAbout": [
+      "Génie civil",
+      "Calcul de structures",
+      "BIM",
+      "Revit",
+      "Robot Structural Analysis",
+      "RFEM 6",
+      "Tekla Structures",
+      "Navisworks",
+      "Suivi de chantier"
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#08111f;
+      --bg-soft:#101927;
+      --card:#f7f8fb;
+      --ink:#172033;
+      --muted:#64748b;
+      --line:#d8dee9;
+      --accent:#c59b52;
+      --accent-2:#38bdf8;
+      --white:#ffffff;
+      --shadow:0 24px 80px rgba(2,8,23,.18);
+      --radius:26px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color:var(--ink);
+      background:#eef2f7;
+      line-height:1.65;
+    }
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .site-shell{overflow:hidden}
+    .hero{
+      position:relative;
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 85% 15%, rgba(56,189,248,.22), transparent 32%),
+        radial-gradient(circle at 18% 18%, rgba(197,155,82,.22), transparent 28%),
+        linear-gradient(135deg,#08111f 0%, #101927 50%, #172033 100%);
+      color:var(--white);
+      padding:32px 24px 90px;
+    }
+    .hero:after{
+      content:"";
+      position:absolute;
+      inset:auto -10% -120px -10%;
+      height:240px;
+      background:#eef2f7;
+      transform:rotate(-4deg);
+      transform-origin:left top;
+    }
+    .nav{
+      position:relative;
+      z-index:5;
+      max-width:var(--max);
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      padding:14px 0;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:800;
+      letter-spacing:.02em;
+    }
+    .brand-mark{
+      width:44px;height:44px;border-radius:14px;
+      display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--accent),#f4d28a);
+      color:#111827;
+      font-weight:900;
+    }
+    .nav-links{display:flex;gap:22px;color:#cbd5e1;font-size:.96rem;align-items:center}
+    .nav-links a:hover{color:#fff}
+    .nav-cta{border:1px solid rgba(255,255,255,.25);padding:10px 16px;border-radius:999px;background:rgba(255,255,255,.06)}
+    .hero-grid{
+      position:relative;
+      z-index:2;
+      max-width:var(--max);
+      margin:82px auto 0;
+      display:grid;
+      grid-template-columns:1.12fr .88fr;
+      align-items:center;
+      gap:64px;
+    }
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      color:#dbeafe;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:999px;
+      padding:8px 14px;
+      font-weight:650;
+      font-size:.92rem;
+      backdrop-filter:blur(12px);
+    }
+    .dot{width:9px;height:9px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 8px rgba(197,155,82,.16)}
+    h1{font-size:clamp(2.6rem,7vw,5.8rem);line-height:.96;margin:24px 0 20px;letter-spacing:-.07em}
+    .hero-title span{display:block;color:#e2e8f0;font-weight:650;font-size:clamp(1.05rem,2.5vw,1.6rem);letter-spacing:.02em;margin-top:18px;line-height:1.35}
+    .hero p{max-width:730px;color:#cbd5e1;font-size:1.12rem;margin:0 0 30px}
+    .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:14px 19px;border-radius:999px;font-weight:800;transition:.25s ease;
+      border:1px solid transparent;
+    }
+    .btn-primary{background:linear-gradient(135deg,var(--accent),#f4d28a);color:#111827;box-shadow:0 18px 40px rgba(197,155,82,.18)}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 24px 55px rgba(197,155,82,.28)}
+    .btn-secondary{color:#fff;border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.06)}
+    .btn-secondary:hover{background:rgba(255,255,255,.12);transform:translateY(-2px)}
+    .hero-card{
+      position:relative;
+      padding:18px;
+      border-radius:34px;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.15);
+      box-shadow:0 28px 90px rgba(0,0,0,.35);
+      backdrop-filter:blur(18px);
+    }
+    .portrait-wrap{
+      position:relative;
+      overflow:hidden;
+      border-radius:28px;
+      background:#111827;
+      min-height:560px;
+    }
+    .portrait-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top;min-height:560px;filter:saturate(.94) contrast(1.02)}
+    .floating-panel{
+      position:absolute;
+      left:22px;right:22px;bottom:22px;
+      background:rgba(8,17,31,.86);
+      border:1px solid rgba(255,255,255,.14);
+      color:#fff;
+      border-radius:22px;
+      padding:18px;
+      backdrop-filter:blur(12px);
+    }
+    .floating-panel strong{display:block;font-size:1.05rem;margin-bottom:4px}
+    .floating-panel small{color:#cbd5e1}
+    .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+    .metric{background:rgba(255,255,255,.08);border-radius:16px;padding:12px;text-align:center}
+    .metric b{display:block;font-size:1.05rem;color:#f8fafc}.metric span{font-size:.75rem;color:#cbd5e1}
+    section{position:relative;z-index:3;padding:82px 24px}
+    .container{max-width:var(--max);margin:0 auto}
+    .section-head{display:grid;grid-template-columns:.55fr 1fr;gap:38px;align-items:end;margin-bottom:38px}
+    .section-kicker{color:var(--accent);font-weight:900;text-transform:uppercase;letter-spacing:.18em;font-size:.82rem;margin-bottom:10px}
+    h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.03;letter-spacing:-.045em;margin:0;color:#0f172a}
+    .section-head p{margin:0;color:var(--muted);font-size:1.06rem}
+    .about-grid{display:grid;grid-template-columns:1fr .86fr;gap:26px}
+    .card{
+      background:var(--white);
+      border:1px solid rgba(15,23,42,.08);
+      border-radius:var(--radius);
+      padding:28px;
+      box-shadow:var(--shadow);
+    }
+    .card h3{font-size:1.28rem;margin:0 0 14px;color:#0f172a;letter-spacing:-.02em}
+    .card p{color:#526174;margin:0 0 16px}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+    .chip{background:#f1f5f9;color:#22304a;border:1px solid #e2e8f0;border-radius:999px;padding:8px 12px;font-weight:700;font-size:.88rem}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:26px}
+    .service-card{background:#fff;border-radius:24px;padding:26px;border:1px solid rgba(15,23,42,.08);box-shadow:0 16px 50px rgba(15,23,42,.08)}
+    .icon{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:#f8ead1;color:#5d4215;font-size:1.35rem;margin-bottom:18px}
+    .service-card h3{margin:0 0 10px;font-size:1.12rem;color:#0f172a}.service-card p{margin:0;color:#64748b;font-size:.97rem}
+    .timeline{position:relative;display:grid;gap:18px}.timeline:before{content:"";position:absolute;left:23px;top:12px;bottom:12px;width:2px;background:#d6dde8}
+    .timeline-item{position:relative;display:grid;grid-template-columns:50px 1fr;gap:20px}
+    .timeline-dot{width:48px;height:48px;border-radius:16px;background:#0f172a;color:#fff;display:grid;place-items:center;font-weight:900;z-index:1;box-shadow:0 12px 28px rgba(15,23,42,.22)}
+    .timeline-content{background:#fff;border-radius:22px;padding:24px;border:1px solid rgba(15,23,42,.08);box-shadow:0 12px 40px rgba(15,23,42,.07)}
+    .timeline-content time{font-weight:900;color:var(--accent);font-size:.88rem;letter-spacing:.04em}.timeline-content h3{margin:6px 0 6px;color:#0f172a;font-size:1.22rem}.timeline-content p{margin:0;color:#64748b}
+    .bullets{margin:14px 0 0;padding-left:18px;color:#475569}.bullets li{margin:7px 0}
+    .skills-wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .skill-box{background:#fff;border-radius:24px;padding:24px;border:1px solid rgba(15,23,42,.08);box-shadow:0 12px 40px rgba(15,23,42,.07)}
+    .skill-box h3{margin:0 0 14px;color:#0f172a;font-size:1.07rem}.skill-list{display:flex;flex-wrap:wrap;gap:8px}.skill-list span{padding:7px 10px;border-radius:999px;background:#eef2f7;color:#334155;font-weight:700;font-size:.82rem}
+    .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .project-card{background:#fff;border:1px solid rgba(15,23,42,.08);border-radius:28px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+    .project-media{position:relative;height:230px;overflow:hidden;background:#0f172a}
+    .project-media img{width:100%;height:100%;object-fit:cover;transition:transform .55s ease;filter:saturate(1.02) contrast(1.02)}
+    .project-card:hover .project-media img{transform:scale(1.055)}
+    .project-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:20px;background:linear-gradient(180deg,rgba(8,17,31,.22) 0%,rgba(8,17,31,.72) 100%);color:#fff}
+    .project-overlay span{align-self:flex-start;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 10px;font-weight:800;font-size:.75rem;backdrop-filter:blur(8px)}
+    .project-overlay h3{margin:0;font-size:1.2rem;line-height:1.15;text-shadow:0 8px 28px rgba(0,0,0,.4)}.project-body{padding:24px;flex:1}.project-body p{margin:0 0 16px;color:#64748b}.project-tools{display:flex;flex-wrap:wrap;gap:8px}.project-tools span{font-size:.78rem;font-weight:800;background:#f1f5f9;border-radius:999px;padding:6px 9px;color:#334155}
+    .cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.cert{display:flex;gap:14px;align-items:flex-start;background:#fff;border-radius:20px;border:1px solid rgba(15,23,42,.08);padding:18px}.cert b{display:block;color:#0f172a}.cert small{color:#64748b}.cert:before{content:"✓";flex:0 0 32px;width:32px;height:32px;border-radius:10px;background:#dcfce7;color:#166534;display:grid;place-items:center;font-weight:900}
+    .contact-section{background:#08111f;color:#fff;padding-bottom:90px}.contact-section h2{color:#fff}.contact-section .section-head p{color:#cbd5e1}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:24px}.contact-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:28px;padding:28px;box-shadow:0 24px 80px rgba(0,0,0,.22)}.contact-item{display:flex;gap:14px;align-items:center;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.1)}.contact-item:last-child{border-bottom:0}.contact-icon{width:42px;height:42px;border-radius:14px;background:rgba(197,155,82,.18);display:grid;place-items:center;color:#f3d290}.contact-item b{display:block}.contact-item span,.contact-item a{color:#cbd5e1}.qr-box{display:grid;gap:14px;align-content:start}.qr-img{background:#fff;border-radius:22px;padding:18px;max-width:210px}.footer{background:#050b14;color:#94a3b8;text-align:center;padding:26px;font-size:.92rem}.footer b{color:#fff}
+    .reveal{opacity:0;transform:translateY(18px);transition:.7s ease}.reveal.show{opacity:1;transform:none}
+    @media(max-width:980px){.nav-links{display:none}.hero-grid,.section-head,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{margin-top:54px}.portrait-wrap,.portrait-wrap img{min-height:460px}.services,.projects-grid{grid-template-columns:1fr}.skills-wrap{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.hero{padding:24px 18px 76px}.actions{flex-direction:column}.btn{width:100%}.metrics{grid-template-columns:1fr}.card,.contact-card{padding:22px}.skills-wrap,.cert-grid{grid-template-columns:1fr}.section-head{gap:16px}section{padding:62px 18px}.timeline-content{padding:20px}.hero p{font-size:1rem}}
+    @media print{.nav,.actions,.footer{display:none}.hero{min-height:auto;padding-bottom:40px}.hero:after{display:none}section{padding:30px 0}.card,.project-card,.timeline-content,.skill-box,.service-card,.cert{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="hero" id="accueil">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="#accueil" aria-label="Accueil du portfolio">
+          <span class="brand-mark">MS</span>
+          <span>Mohamed Amine Sadik</span>
+        </a>
+        <div class="nav-links">
+          <a href="#profil">Profil</a>
+          <a href="#experience">Expérience</a>
+          <a href="#projets">Projets</a>
+          <a href="#competences">Compétences</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot"></span> Bureau d'études • Chantier • BIM</span>
+          <h1 class="hero-title">Mohamed Amine Sadik <span>Ingénieur d'État en Génie Civil spécialisé en calcul de structures et coordination BIM.</span></h1>
+          <p>J'interviens sur la modélisation BIM, le dimensionnement structurel, la coordination technique et le suivi d'exécution, avec une approche orientée performance, qualité et constructibilité.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="assets/Mohamed_Amine_Sadik_CV.pdf" download>Télécharger le CV</a>
+            <a class="btn btn-secondary" href="mailto:sadikmohamedamine01@gmail.com">Me contacter</a>
+            <a class="btn btn-secondary" href="#projets">Voir les projets</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Carte profil">
+          <div class="portrait-wrap">
+            <img src="assets/mohamed-amine-sadik-photo.png" alt="Portrait professionnel de Mohamed Amine Sadik" />
+            <div class="floating-panel">
+              <strong>Ingénierie structure & BIM</strong>
+              <small>Revit • Robot Structural Analysis • RFEM 6 • Tekla • Navisworks</small>
+              <div class="metrics" aria-label="Indicateurs profil">
+                <div class="metric"><b>3</b><span>stages clés</span></div>
+                <div class="metric"><b>4D/5D</b><span>BIM planning/coût</span></div>
+                <div class="metric"><b>FR/EN</b><span>courant</span></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section id="profil">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Profil</div>
+              <h2>Un profil technique orienté structures, coordination BIM et terrain.</h2>
+            </div>
+            <p>Ingénieur d'État en génie civil, je combine le calcul structurel, la production de modèles BIM et la compréhension chantier pour contribuer à des projets de construction exigeants.</p>
+          </div>
+
+          <div class="about-grid">
+            <article class="card reveal">
+              <h3>À propos</h3>
+              <p>Spécialisé en calcul de structures et BIM, je maîtrise les outils de modélisation, d'analyse et de coordination nécessaires à la conception et à l'exécution : Revit, Robot Structural Analysis, RFEM 6, Tekla et Navisworks.</p>
+              <p>Mon objectif est d'intégrer une équipe dynamique au sein d'un bureau d'études, d'une entreprise de construction ou d'une cellule BIM afin de contribuer à la qualité technique des projets.</p>
+              <div class="chips">
+                <span class="chip">Calcul de structures</span>
+                <span class="chip">BIM coordination</span>
+                <span class="chip">Suivi de chantier</span>
+                <span class="chip">Planification 4D</span>
+                <span class="chip">Estimation 5D</span>
+              </div>
+            </article>
+
+            <article class="card reveal">
+              <h3>Formation</h3>
+              <div class="timeline" aria-label="Formation">
+                <div class="timeline-item">
+                  <div class="timeline-dot">01</div>
+                  <div class="timeline-content">
+                    <time>2021 — 2026</time>
+                    <h3>École Marocaine des Sciences de l'Ingénieur</h3>
+                    <p>Cycle d'Ingénieur d'État en Génie Civil — Casablanca.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot">02</div>
+                  <div class="timeline-content">
+                    <time>2018 — 2019</time>
+                    <h3>Baccalauréat Sciences Mathématiques</h3>
+                    <p>Lycée Hassan II — Béni Mellal.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="services">
+            <article class="service-card reveal">
+              <div class="icon">⌁</div>
+              <h3>Bureau d'études</h3>
+              <p>Conception, prédimensionnement, modélisation analytique et vérification des éléments structuraux.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon">◫</div>
+              <h3>Coordination BIM</h3>
+              <p>Modèles Revit, détection de conflits, coordination interdisciplinaire et préparation des maquettes.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="icon">▣</div>
+              <h3>Suivi de chantier</h3>
+              <p>Suivi des travaux, contrôle qualité, coordination terrain et compréhension des contraintes d'exécution.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Expérience professionnelle</div>
+              <h2>Des missions en conception, BIM et exécution.</h2>
+            </div>
+            <p>Parcours construit autour de projets industriels, tertiaires et de restauration, avec une montée en compétence progressive du terrain vers le bureau d'études et le BIM avancé.</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-dot">TME</div>
+              <div class="timeline-content">
+                <time>Février 2026 — Juillet 2026 · Tanger Med Engineering, Port Tanger Med</time>
+                <h3>Stagiaire en conception, dimensionnement et BIM</h3>
+                <p>Étude comparative du dimensionnement d'une unité industrielle selon CM66 et Eurocode.</p>
+                <ul class="bullets">
+                  <li>Calcul et vérification de structures métalliques avec Robot Structural Analysis et RFEM 6.</li>
+                  <li>Modélisation BIM et coordination technique sur Revit et Navisworks.</li>
+                  <li>Intégration des dimensions 4D/5D pour la planification et l'estimation des coûts.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-dot">TME</div>
+              <div class="timeline-content">
+                <time>Juillet 2025 — Septembre 2025 · Tanger Med Engineering, Port Tanger Med</time>
+                <h3>Stagiaire en conception et dimensionnement de structures</h3>
+                <p>Participation à la conception et au dimensionnement du projet McDonald's Hyper U Capo Negro — Tétouan.</p>
+                <ul class="bullets">
+                  <li>Élaboration de modèles BIM sous Revit.</li>
+                  <li>Calcul de structures selon BAEL, EC2 et RPS 2011.</li>
+                  <li>Contribution au suivi d'exécution et à la coordination entre les équipes techniques et le bureau d'études.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-dot">SGTM</div>
+              <div class="timeline-content">
+                <time>Juillet 2024 — Août 2024 · SGTM, Tanger</time>
+                <h3>Stagiaire en modélisation BIM et supervision de chantier</h3>
+                <p>Contribution à un projet de construction d'une unité de câblage automobile.</p>
+                <ul class="bullets">
+                  <li>Modélisation BIM des locaux annexes : architectural, structurel et MEP.</li>
+                  <li>Détection et résolution de conflits techniques avec Navisworks.</li>
+                  <li>Supervision des travaux de maçonnerie, bardage et étanchéité.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Projets sélectionnés</div>
+              <h2>Applications concrètes en structure et BIM.</h2>
+            </div>
+            <p>Chaque projet met en avant une compétence clé : calcul structurel, coordination BIM, suivi d'exécution, planification 4D ou estimation 5D.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-media">
+                <img src="assets/project-jh-tech.jpg" alt="Vue extérieure de l'unité industrielle JH TECH" loading="lazy" />
+                <div class="project-overlay">
+                  <span>Structure métallique • BIM</span>
+                  <h3>Unité industrielle JH TECH</h3>
+                </div>
+              </div>
+              <div class="project-body">
+                <p>Étude comparative CM66/Eurocode, modélisation, vérifications structurelles et intégration BIM 4D/5D.</p>
+                <div class="project-tools"><span>Robot</span><span>RFEM 6</span><span>Revit</span><span>Navisworks</span><span>4D/5D</span></div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <img src="assets/project-mcdonalds-capo-negro.jpg" alt="Projet McDonald's Hyper U Capo Negro à Tétouan" loading="lazy" />
+                <div class="project-overlay">
+                  <span>Béton armé • Bureau d'études</span>
+                  <h3>McDonald's Hyper U Capo Negro</h3>
+                </div>
+              </div>
+              <div class="project-body">
+                <p>Conception, modélisation BIM et calcul de structures pour un restaurant situé à Tétouan.</p>
+                <div class="project-tools"><span>Revit</span><span>BAEL</span><span>EC2</span><span>RPS 2011</span></div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <img src="assets/project-aptive-sgtm.jpg" alt="Projet Aptiv Tanger suivi avec SGTM" loading="lazy" />
+                <div class="project-overlay">
+                  <span>Chantier • Coordination</span>
+                  <h3>Unité de câblage automobile Aptiv</h3>
+                </div>
+              </div>
+              <div class="project-body">
+                <p>Modélisation BIM des locaux annexes et coordination des conflits techniques MEP/structure.</p>
+                <div class="project-tools"><span>Revit</span><span>Navisworks</span><span>MEP</span><span>Chantier</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Compétences</div>
+              <h2>Stack technique adaptée aux projets de construction.</h2>
+            </div>
+            <p>Un ensemble d'outils couvrant la conception, la modélisation, le calcul, la coordination, la planification et la gestion documentaire.</p>
+          </div>
+
+          <div class="skills-wrap">
+            <article class="skill-box reveal">
+              <h3>BIM / CAO</h3>
+              <div class="skill-list"><span>Revit</span><span>AutoCAD</span><span>Navisworks</span><span>BIM 360</span><span>Archicad</span><span>ReCap</span></div>
+            </article>
+            <article class="skill-box reveal">
+              <h3>Calcul / Structure</h3>
+              <div class="skill-list"><span>Robot Structural Analysis</span><span>RFEM 6</span><span>Tekla</span><span>Adapt-Builder</span><span>Abaqus</span></div>
+            </article>
+            <article class="skill-box reveal">
+              <h3>Gestion de projet</h3>
+              <div class="skill-list"><span>MS Project</span><span>Primavera P6</span><span>Gestion d'équipe</span><span>Coordination</span></div>
+            </article>
+            <article class="skill-box reveal">
+              <h3>Office / Data</h3>
+              <div class="skill-list"><span>Excel</span><span>Word</span><span>PowerPoint</span><span>MySQL</span><span>Covadis</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificats">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Certificats</div>
+              <h2>Formation continue et culture projet.</h2>
+            </div>
+            <p>Certificats liés aux infrastructures, au BIM, au management de projet et à l'ingénierie parasismique.</p>
+          </div>
+          <div class="cert-grid">
+            <div class="cert reveal"><div><b>Mastering bitumen for better roads and innovative applications</b><small>École des Ponts et Chaussées ParisTech</small></div></div>
+            <div class="cert reveal"><div><b>BIM Coordination</b><small>Georgia Institute of Technology</small></div></div>
+            <div class="cert reveal"><div><b>Budgeting and Scheduling Projects</b><small>University of California, Irvine</small></div></div>
+            <div class="cert reveal"><div><b>Construction Project Management</b><small>Columbia University</small></div></div>
+            <div class="cert reveal"><div><b>Seismology to Earthquake Engineering</b><small>École Polytechnique de Paris</small></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <div class="section-kicker">Contact</div>
+              <h2>Disponible pour échanger sur des opportunités en génie civil, BIM et structures.</h2>
+            </div>
+            <p>Pour une candidature, une mission ou une collaboration, vous pouvez me contacter directement par e-mail ou téléphone.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card reveal">
+              <div class="contact-item">
+                <div class="contact-icon">✉</div>
+                <div><b>E-mail</b><a href="mailto:sadikmohamedamine01@gmail.com">sadikmohamedamine01@gmail.com</a></div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">☎</div>
+                <div><b>Téléphone</b><a href="tel:+212609823358">+212 609 823 358</a></div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">⌖</div>
+                <div><b>Localisation</b><span>Casablanca, Maroc</span></div>
+              </div>
+              <div class="actions">
+                <a class="btn btn-primary" href="mailto:sadikmohamedamine01@gmail.com?subject=Contact%20depuis%20votre%20portfolio">Envoyer un e-mail</a>
+                <a class="btn btn-secondary" href="assets/Mohamed_Amine_Sadik_CV.pdf" download>Télécharger le CV</a>
+              </div>
+            </div>
+
+            <aside class="contact-card qr-box reveal">
+              <h3>LinkedIn</h3>
+              <p style="color:#cbd5e1;margin:0">Scannez le QR code ou utilisez le lien présent dans le CV pour accéder au profil LinkedIn.</p>
+              <a class="qr-img" href="https://qr.me-qr.com/nmdjvXbv" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le lien LinkedIn">
+                <img src="assets/linkedin-qr.png" alt="QR code LinkedIn de Mohamed Amine Sadik" />
+              </a>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © <span id="year"></span> <b>Mohamed Amine Sadik</b> — Portfolio Génie Civil, BIM & Structures.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){ entry.target.classList.add('show'); observer.unobserve(entry.target); }
+      });
+    }, {threshold: 0.12});
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
