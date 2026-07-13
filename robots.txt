@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Après publication, remplacez l'URL ci-dessous par l'adresse finale de votre site.
-Sitemap: https://votre-domaine.com/sitemap.xml
+Sitemap: https://mohamedaminesadik.github.io/sitemap.xml
